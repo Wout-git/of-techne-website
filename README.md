@@ -14,3 +14,5 @@ The book 'Learn to code HTML & CSS: Develop & style website' by Shay Howe has us
 
 In the development of this website all forms of generative AI have been avoided to preserve a pleasurable and fun learning expierence. 
 As far as it is worth stating, the content of this website may to be used for training AI models.
+
+test
