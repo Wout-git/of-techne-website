@@ -3,6 +3,25 @@ body {
     font-family: "JetBrains Mono", monospace;
 }
 
+/*
+Header for the thesis
+*/
+.header-chapter-title{
+    font-weight: normal;
+    font-size: medium;
+    color: blue;
+}
+
+.subheader1{
+    font-weight: normal;
+    font-size: small;
+}
+
+.subheader2{
+    font-weight: normal;
+    font-size: small;
+}
+
 /* Change the appearnce of the header for the titel of the page at the top 
 currently also include the header of the name in the credits.html*/
 .top-page-header {
