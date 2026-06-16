@@ -3,6 +3,12 @@ body {
     font-family: "JetBrains Mono", monospace;
 }
 
+/* Change the appearnce of the header for the titel of the page at the top 
+currently also include the header of the name in the credits.html*/
+.top-page-header {
+    font-weight: normal;
+}
+
 /*
 Essay and thesis page settings 
 */
@@ -15,7 +21,8 @@ Essay and thesis page settings
     max-width: 70ch; /* Change the maximal width of the lines */
 }
 
-.body-prologue-epilogue{
+/* centers all block in the body horizontally */
+.main-body-layout{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +73,9 @@ nav li {
 }
 
 .ascii-art {
-    margin: 8vh 5vw;
+    margin: 8vh auto;
+    display: block;
+    width: max-content;
 }
 
 .prologue-epilogue{
@@ -107,4 +116,29 @@ Navigatonal footer
 .current-page { 
     visibility: hidden; /* hides the link to the current page  */
     pointer-events: none; /* makes hidden link unclickable  */
+}
+
+/* 
+Glossary 
+*/
+.glossary-section {
+    width: 80%;
+    padding: 2rem;
+}
+
+.glossary-entry {
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    gap: 10rem; /* adjust gap between title and text */
+    align-items: start;
+    margin-bottom: 1.5rem;
+    max-width: 150ch; /* adjust the max charaters displayed on a line */
+}
+
+.glossary-entry h4 {
+    margin: 0;
+}
+
+.glossary-entry p {
+    margin: 0;
 }
