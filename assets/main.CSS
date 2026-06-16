@@ -1,11 +1,16 @@
-/* Change the maximal width of the lines */
-.essay{
-    max-width: 70ch;
-}
-
 /* Change the font */
 body {
     font-family: "JetBrains Mono", monospace;
+}
+
+/* Change the spacing between paragraphs */
+.essay p{
+    margin-bottom: 3rem;
+}
+
+/* Change the maximal width of the lines */
+.essay{
+    max-width: 70ch;
 }
 
 .top-header-logo {
