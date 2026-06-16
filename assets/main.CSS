@@ -76,3 +76,26 @@ nav li {
     align-items: center;
 }
 
+/* Change the spacing footer (total width)*/
+.footer-nav {
+    width: 80%;
+    margin-top: 6rem;
+    padding: 2rem;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Adjust gap between footer elements  */
+.footer-left {
+    display: flex;
+    gap: 8vw
+}
+
+/* Adjust gap between home and prologue in the footer  */
+.home-footer-button {
+    display: block;
+    margin-bottom: 2%;
+}
