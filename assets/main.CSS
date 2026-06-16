@@ -3,21 +3,27 @@ body {
     font-family: "JetBrains Mono", monospace;
 }
 
-/* Change the spacing between paragraphs */
+/*
+Essay and thesis page settings 
+*/
+
 .essay p{
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; /* Change the spacing between paragraphs */
 }
 
-/* Change the maximal width of the lines */
 .essay{
-    max-width: 70ch;
+    max-width: 70ch; /* Change the maximal width of the lines */
 }
 
-.top-header-logo {
-    width: 100px;
-    height: auto;
+.body-prologue-epilogue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* 
+Index page settings 
+*/
 .index {
     display: flex;
     justify-content: space-between;
@@ -53,9 +59,6 @@ body {
     padding: 10rem 0;
 }
 
-.my-work{
-    padding: 10px 0 10px 0;
-}
 
 nav li {
     list-style: none;
@@ -67,35 +70,41 @@ nav li {
 }
 
 .prologue-epilogue{
-    padding: 2rem 0;
+    padding: 2rem 0; 
 }
 
-.body-prologue-epilogue{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
-/* Change the spacing footer (total width)*/
+
+/* 
+Navigatonal footer
+*/
+
 .footer-nav {
-    width: 80%;
+    width: 80%; /* adjust the width of the total footer*/
     margin-top: 6rem;
     padding: 2rem;
-}
 
-.footer-links {
     display: flex;
-    justify-content: space-between;
+    align-items: flex-end; /* aligns prologue and epilogue on same row */
 }
 
-/* Adjust gap between footer elements  */
-.footer-left {
+.left-nav {
     display: flex;
-    gap: 8vw
+    flex-direction: column;
 }
 
-/* Adjust gap between home and prologue in the footer  */
-.home-footer-button {
-    display: block;
-    margin-bottom: 2%;
+.middle-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.home-footer-button{
+    margin-bottom: 1.5rem; /* adjust the spaceing between the home button and the prologue */
+}
+
+.current-page { 
+    visibility: hidden; /* hides the link to the current page  */
+    pointer-events: none; /* makes hidden link unclickable  */
 }
