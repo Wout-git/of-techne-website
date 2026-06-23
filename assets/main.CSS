@@ -7,19 +7,21 @@ body {
 Header for the thesis
 */
 .header-chapter-title{
-    font-weight: normal;
+    font-weight: bolder;
     font-size: medium;
-    color: blue;
+    color: darkslategray;
 }
 
 .subheader1{
-    font-weight: normal;
-    font-size: small;
+    font-weight: bold;
+    font-size: medium;
+    color: slategray;
 }
 
 .subheader2{
     font-weight: normal;
-    font-size: small;
+    font-size: medium;
+    color: lightslategray;
 }
 
 /* Change the appearnce of the header for the titel of the page at the top 
@@ -37,7 +39,7 @@ Essay and thesis page settings
 }
 
 .essay{
-    max-width: 70ch; /* Change the maximal width of the lines */
+    max-width: 80ch; /* Change the maximal width of the lines */
 }
 
 /* centers all block in the body horizontally */
