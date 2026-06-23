@@ -1,6 +1,17 @@
 /* Change the font */
 body {
     font-family: "JetBrains Mono", monospace;
+    font-size: large;
+    line-height: 180%;
+
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
 }
 
 /*
@@ -28,17 +39,18 @@ Header for the thesis
 currently also include the header of the name in the credits.html*/
 .top-page-header {
     font-weight: normal;
+    text-align: center;
 }
 
 /*
 Essay and thesis page settings 
 */
 
-.essay p{
+.writings p{
     margin-bottom: 3rem; /* Change the spacing between paragraphs */
 }
 
-.essay{
+.writings{
     max-width: 80ch; /* Change the maximal width of the lines */
 }
 
@@ -52,13 +64,16 @@ Essay and thesis page settings
 /* 
 Index page settings 
 */
-.index {
+
+.index-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+    height: 90vh;
 }
 
-.index section {
+
+.index-content section {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -84,7 +99,7 @@ Index page settings
 }
 
 .right-links li{
-    padding: 10rem 0;
+    padding: 0.1rem;
 }
 
 
@@ -97,6 +112,7 @@ nav li {
     margin: 8vh auto;
     display: block;
     width: max-content;
+    line-height: 100%;
 }
 
 .prologue-epilogue{
@@ -138,6 +154,40 @@ Navigatonal footer
     visibility: hidden; /* hides the link to the current page  */
     pointer-events: none; /* makes hidden link unclickable  */
 }
+
+.name-for-index{
+    text-align: right;
+    margin-right: 5%;
+    margin-top: -5%;
+
+}
+
+
+/* 
+First page
+*/
+
+
+.index-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+
+.front-page-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 10%;
+}
+
+.front-page-text article {
+    margin-bottom: 3rem;
+}
+
 
 /* 
 Glossary 
