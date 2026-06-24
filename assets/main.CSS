@@ -213,3 +213,53 @@ Glossary
 .glossary-entry p {
     margin: 0;
 }
+
+/* 
+images 
+*/
+
+
+.still-image {
+    float: left;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 0.15%;
+}
+
+.still-image img {
+    width: 100%;
+    display: block;
+}
+
+.still-image figcaption {
+    color: #666;
+    margin-top: 0.5%;
+    font-size: small;
+    margin-bottom: 0%;
+    text-align: center;
+
+}
+
+/* 
+references  
+*/
+
+
+.chapter-references p {
+    margin: 1% 0;
+    font-size: small;
+    color: #666;
+}
+
+.chapter-references{
+    margin-bottom: 6%;
+}
+
+.ref-number {
+    display: inline-block;
+    width: 8%;
+    
+}
+
