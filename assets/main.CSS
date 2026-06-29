@@ -208,17 +208,16 @@ Glossary
 }
 
 .glossary-entry h4 {
-    margin: 0;
+    margin: 10;
 }
 
 .glossary-entry p {
-    margin: 0;
+    margin: 10;
 }
 
 /* 
 images 
 */
-
 
 .still-image {
     float: left;
@@ -246,7 +245,6 @@ images
 /* 
 references  
 */
-
 
 .chapter-references p {
     margin: 1% 0;
