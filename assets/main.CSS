@@ -73,6 +73,14 @@ Index page settings
     height: 90vh;
 }
 
+.index-content section {
+    pointer-events: none;
+}
+
+.top-page-header {
+    position: relative;
+    z-index: 10;
+}
 
 .index-content section {
     position: absolute;
