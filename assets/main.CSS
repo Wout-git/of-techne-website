@@ -300,3 +300,14 @@ sup {
 .index-content section {
     pointer-events: none;
 }
+
+
+.top-page-header {
+    font-weight: normal;
+    text-align: center;
+}
+
+.top-page-header a {
+    position: relative;
+    z-index: 10;
+}
