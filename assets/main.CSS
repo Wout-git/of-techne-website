@@ -290,3 +290,13 @@ sup {
      margin-top:6%;
     margin-bottom:-5%;
 }
+
+
+.header-prologue-epilogue {
+    position: relative;
+    z-index: 10;
+}
+
+.index-content section {
+    pointer-events: none;
+}
